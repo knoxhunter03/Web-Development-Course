@@ -46,36 +46,45 @@ const vegetable = new Vegetable ({
 
 // person.save();
 
-const tomato = new Vegetable({
-    id: 2,
-    name: "Tomato",
-    rating: 5,
-    review: "Good enough, some people they don't like it!"
-});
+// const tomato = new Vegetable({
+//     id: 2,
+//     name: "Tomato",
+//     rating: 5,
+//     review: "Good enough, some people they don't like it!"
+// });
 
-const onion = new Vegetable({
-    id: 3,
-    name: "Onion",
-    rating: 5,
-    review: "Can make anyone wet!"
-});
+// const onion = new Vegetable({
+//     id: 3,
+//     name: "Onion",
+//     rating: 5,
+//     review: "Can make anyone wet!"
+// });
 
-const capsicum = new Vegetable({
-    id: 4,
-    name: "Capsicum",
-    rating: 5,
-    review: "Available in different shapes & sizes"
-});
+// const capsicum = new Vegetable({
+//     id: 4,
+//     name: "Capsicum",
+//     rating: 5,
+//     review: "Available in different shapes & sizes"
+// });
 
-Vegetable.insertMany([tomato, onion, capsicum])
+// Vegetable.insertMany([tomato, onion, capsicum])
+//     .then( () => {
+//         console.log("Successfully saved the vegetabes");
+//     })
+//     .catch( (err) => {
+//         console.log.apply(err);
+//     });
+
+Vegetable.find(vegetable)
     .then( () => {
-        console.log("Successfully saved the vegetabes");
+        vegetable.forEach((item) => {
+            console.log(vegetable.name);
+        })
+        
     })
     .catch( (err) => {
         console.log.apply(err);
     });
-
-
 
 
 
