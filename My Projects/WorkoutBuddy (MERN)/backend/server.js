@@ -22,10 +22,10 @@ app.use("/api/workouts", workoutRoutes);
 //connect to db
 mongoose.connect(process.env.MONGO_URI)
     .then(() => {
-        
+
         // listen for requests
         app.listen(process.env.PORT, () => {
-            console.log("Server is running on port " + process.env.PORT);
+            console.log("Connected to db & Server is running on port " + process.env.PORT);
         })
     }) 
     .catch((error) => {
