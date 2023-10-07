@@ -1,4 +1,15 @@
 /* Custom Css */
+.hello {
+  color: blue;
+}
+
+main{padding-top:3.5rem}
+html{position:relative;min-height:100%}main{margin-bottom:100px}.footer{position:absolute;bottom:1px;width:100%;height:60px;line-height:60px;z-index:-20}
+
+:root {--theme-color: #000000;}
+.navbar{background-color: var(--theme-color) !important;}
+
+
 /* FAQ Component Starts here */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 

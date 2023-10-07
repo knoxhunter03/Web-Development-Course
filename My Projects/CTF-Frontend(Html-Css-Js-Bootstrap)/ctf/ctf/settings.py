@@ -27,6 +27,14 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+import os
+STATIC_URL = '/static/'
+
+# Define the STATICFILES_DIRS to specify the directories where Django should look for static files.
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+
+
 
 # Application definition
 
@@ -122,3 +130,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
