@@ -1,0 +1,1274 @@
+/*
+	@name homepage
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1512px; width: 1512px; height: 3904px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_homepage_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1512px;
+	height: 3904px;
+}
+
+#_bg__homepage_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1512px;
+	height: 3904px;
+	background:rgba(255,255,255,1);
+}
+
+#home_page___1 {
+	top: 0px;
+	left: 134px;
+	width: 1245px;
+	height: 612px;
+}
+
+#_bg__home_page___1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1245px;
+	height: 612px;
+	background:#;
+}
+
+
+#home_page___1_ek2 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:rgba(196,196,196,0.44);
+}
+
+
+#rectangle_2 {
+	top: 0px;
+	left: 0px;
+	width: 1245px;
+	height: 61px;
+	background:rgba(130.89,130.89,130.89,1);
+}
+
+
+#cyper_ctf_1_0 {
+	top: 21px;
+	left: 105px;
+	width: 214.4px;
+	height: 36.4px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 24px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#users {
+	top: 27px;
+	left: 546px;
+	width: 107px;
+	height: 36px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#teams {
+	top: 27px;
+	left: 636px;
+	width: 107px;
+	height: 36px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#scoreboard {
+	top: 27px;
+	left: 725px;
+	width: 132px;
+	height: 36px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#challenges {
+	top: 25px;
+	left: 404px;
+	width: 138px;
+	height: 36px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#rectangle_3 {
+	top: 21px;
+	left: 995px;
+	width: 105px;
+	height: 34px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(0,132.6,255,1);
+}
+
+
+#rectangle_4 {
+	top: 21px;
+	left: 1100px;
+	width: 40px;
+	height: 34px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	background:rgba(3.39,3.39,3.39,1);
+}
+
+
+#profile {
+	top: 25px;
+	left: 1019px;
+	width: 138px;
+	height: 36px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#pngaaa_1 {
+	top: 27px;
+	left: 1109px;
+	width: 23px;
+	height: 23px;
+}
+
+
+#capture_the_flag {
+	top: 123px;
+	left: 105px;
+	width: 554.4px;
+	height: 87.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 54px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#explore__hack__conquer_ {
+	top: 194px;
+	left: 109px;
+	width: 466.2px;
+	height: 47.2px;
+	overflow: hidden;
+	font-family: Fira Mono;
+	font-size: 32px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#welcome_hackers__prove_the_world_that_a_computer_genius_with_a_laptop_is_not_a_nerd_sitting_in_the_corner_of_a_untidy_room_but_a_fun_loving_work_of_brilliance__join_our_ctf_and_expand_your_knowledge_about_computer_forensics_ {
+	top: 271px;
+	left: 105px;
+	width: 527px;
+	height: 153px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#join_us_on_november_4__2023__for_an_epic_ctf_challenge___win_exciting_rewards_ {
+	top: 416px;
+	left: 106px;
+	width: 535px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#363333;
+}
+
+#frame_1 {
+	top: 214px;
+	left: 771px;
+	width: 369px;
+	height: 167px;
+}
+
+#_bg__frame_1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 369px;
+	height: 167px;
+	background:#;
+}
+
+
+#_12_30_45 {
+	top: 70px;
+	left: 0px;
+	width: 412.4px;
+	height: 105.4px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 64px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#days {
+	top: 146px;
+	left: 20px;
+	width: 65px;
+	height: 25.6px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#hours {
+	top: 145px;
+	left: 152px;
+	width: 65px;
+	height: 25.6px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#minutes {
+	top: 145px;
+	left: 288px;
+	width: 65px;
+	height: 25.6px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#cyper_quest_registration_is_open_now_ {
+	top: 0px;
+	left: 51px;
+	width: 282px;
+	height: 55.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_5 {
+	top: 442px;
+	left: 888px;
+	width: 147px;
+	height: 34px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	background:rgba(42.7,42.7,42.7,1);
+}
+
+
+#register_now_ {
+	top: 448px;
+	left: 899px;
+	width: 142px;
+	height: 29px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+
+#presented_by {
+	top: 510px;
+	left: 103px;
+	width: 141.6px;
+	height: 25.6px;
+	overflow: hidden;
+	font-family: Fira Code;
+	font-size: 16px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#jain_university_logo_clean_1 {
+	top: 531px;
+	left: 103px;
+	width: 97px;
+	height: 55px;
+}
+
+
+#image_2 {
+	top: 531px;
+	left: 223px;
+	width: 50px;
+	height: 50px;
+}
+
+#home_page___2 {
+	top: 612px;
+	left: 135px;
+	width: 1244px;
+	height: 612px;
+}
+
+#_bg__home_page___2_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:#;
+}
+
+
+#home_page___2_ek2 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:rgba(196,196,196,0.44);
+}
+
+
+#what_is {
+	top: 76px;
+	left: 105px;
+	width: 546px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#why {
+	top: 377px;
+	left: 102px;
+	width: 546px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#__cypherquest {
+	top: 132px;
+	left: 105px;
+	width: 317px;
+	height: 60px;
+	overflow: hidden;
+	font-family: Fira Mono;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#participate {
+	top: 433px;
+	left: 104px;
+	width: 293px;
+	height: 60px;
+	overflow: hidden;
+	font-family: Fira Mono;
+	font-size: 40px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#cyper_quest_2023_is_an_electrifying_capture_the_flag__ctf__event_organized_by_the_cyper_club_of_the_cse___cloud_technology_and_information_security_department__immerse_yourself_in_the_realms_of_cybersecurity__where_you_ll_tackle_challenges_such_as_web_hacking__cloud_hacking__osint__forensic__and_cryptography__this_event_is_designed_to_offer_you_a_dynamic_platform_to_enhance_your_practical_cybersecurity_skills__placing_a_strong_emphasis_on_your_growth_and_development_in_this_exciting_field_ {
+	top: 82px;
+	left: 524px;
+	width: 628.4px;
+	height: 159.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#win_exciting_prizes___flex_your_hacking_skills_get_hands_on_approach_to_cybersecurity_challenges__covering_a_wide_spectrum_of_domains_like_web_hacking__cloud_hacking__osint__forensic__and_cryptography_ {
+	top: 391px;
+	left: 524px;
+	width: 628.4px;
+	height: 159.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 14px;
+	text-align: left;
+	color:#000000;
+}
+
+#explore_rules___faqs {
+	top: 248px;
+	left: 719px;
+	width: 225px;
+	height: 34px;
+}
+
+#_bg__explore_rules___faqs_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 225px;
+	height: 34px;
+	background:#;
+}
+
+
+#rectangle_6 {
+	top: 0px;
+	left: 0px;
+	width: 225px;
+	height: 34px;
+	-ms-border-radius: 19px;
+	-o-border-radius: 19px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	background:rgba(54.39,44.6,44.6,1);
+}
+
+
+#explore_rules___faqs_ek2 {
+	top: 7px;
+	left: 33px;
+	width: 159.4px;
+	height: 25.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 14px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#explore_rules___faqs_ek3 {
+	top: 500px;
+	left: 713px;
+	width: 225px;
+	height: 34px;
+}
+
+#_bg__explore_rules___faqs_ek4 {
+	top: 0px;
+	left: 0px;
+	width: 225px;
+	height: 34px;
+	background:#;
+}
+
+
+#rectangle_6_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 225px;
+	height: 34px;
+	-ms-border-radius: 19px;
+	-o-border-radius: 19px;
+	-moz-border-radius: 19px;
+	-webkit-border-radius: 19px;
+	border-radius: 19px;
+	background:rgba(54.39,44.6,44.6,1);
+}
+
+
+#explore_prizes {
+	top: 6px;
+	left: 63px;
+	width: 111.4px;
+	height: 25.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 14px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#home_page___3 {
+	top: 1224px;
+	left: 135px;
+	width: 1244px;
+	height: 612px;
+}
+
+#_bg__home_page___3_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:#;
+}
+
+
+#home_page___3_ek2 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:rgba(196,196,196,0.44);
+}
+
+
+#prizes___rewards {
+	top: 65px;
+	left: 414px;
+	width: 413.2px;
+	height: 69.2px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_7 {
+	top: 171px;
+	left: 104px;
+	width: 300px;
+	height: 269px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(121.32,117.68,117.68,1);
+}
+
+
+#rectangle_8 {
+	top: 171px;
+	left: 471px;
+	width: 300px;
+	height: 269px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(121.32,117.68,117.68,1);
+}
+
+
+#rectangle_9 {
+	top: 171px;
+	left: 839px;
+	width: 300px;
+	height: 269px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(121.32,117.68,117.68,1);
+}
+
+
+#guess_it__ {
+	top: 474px;
+	left: 100px;
+	width: 307.4px;
+	height: 59.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#get_exciting_goodies_ {
+	top: 474px;
+	left: 468px;
+	width: 307.4px;
+	height: 59.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#certificates {
+	top: 474px;
+	left: 836px;
+	width: 307.4px;
+	height: 59.4px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 24px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#we_have_a_surprise_for_you__keep_guessing_it_until_you_have_it_ {
+	top: 516px;
+	left: 102px;
+	width: 307px;
+	height: 47.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#get_a_chance_to_win_custom_thermos_flasks__mugs__badges {
+	top: 520px;
+	left: 469px;
+	width: 307px;
+	height: 59.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#all_the_participants_will_get_a_certificate_ {
+	top: 520px;
+	left: 836px;
+	width: 307px;
+	height: 47.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+#home_page___4 {
+	top: 1836px;
+	left: 134px;
+	width: 1244px;
+	height: 612px;
+}
+
+#_bg__home_page___4_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:#;
+}
+
+
+#home_page___4_ek2 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:rgba(196,196,196,0.44);
+}
+
+
+#rules {
+	top: 25px;
+	left: 407px;
+	width: 413.2px;
+	height: 59.2px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#team_size__each_team_can_consist_of_a_maximum_of_4_members__solo_participants_are_not_welcomed__please_join_a_team__fair_play__participants_are_expected_to_demonstrate_fair_play__sportsmanship__and_ethical_behavior_throughout_the_competition__any_form_of_cheating_or_unethical_conduct_will_result_in_immediate_disqualification__eligibility__cyper_quest_is_open_to__specify_the_eligibility_criteria__e_g___students__professionals__etc____participants_must_adhere_to_the_specified_eligibility_requirements__registration__all_participants_must_register_in_advance_through_the_official_cyper_quest_website__late_registrations_may_not_be_accepted__scoring__scoring_will_be_based_on_the_successful_completion_of_challenges__each_challenge_will_have_a_specific_point_value__and_the_team_or_individual_with_the_highest_score_at_the_end_of_the_event_will_be_declared_the_winner__flag_submission__teams_must_submit_the_flag__solution__for_each_challenge_through_the_designated_platform__correct_flag_submissions_will_earn_points__time_limits__challenges_may_have_time_limits__participants_must_complete_the_challenges_within_the_specified_time_frame_to_earn_points__code_of_conduct__participants_are_expected_to_maintain_a_respectful_and_professional_demeanor_throughout_the_event__harassment__discrimination__or_any_form_of_inappropriate_behavior_will_not_be_tolerated_ {
+	top: 82px;
+	left: 102px;
+	width: 1039.5px;
+	height: 367.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 15px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#rectangle_10 {
+	top: 496px;
+	left: 405px;
+	width: 435px;
+	height: 38px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(89.45,83.41,83.41,1);
+}
+
+
+#download_a_compelte_pdf_of_all_the_rules {
+	top: 503px;
+	left: 459px;
+	width: 340.6px;
+	height: 28.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: left;
+	color:#FFFFFF;
+}
+
+#home_page___5 {
+	top: 2448px;
+	left: 134px;
+	width: 1244px;
+	height: 612px;
+}
+
+#_bg__home_page___5_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:#;
+}
+
+
+#home_page___4_ek3 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 612px;
+	background:rgba(196,196,196,0.44);
+}
+
+#faqs {
+	top: 87px;
+	left: 110px;
+	width: 1025px;
+	height: 420px;
+}
+
+#_bg__faqs_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1025px;
+	height: 420px;
+	background:#;
+}
+
+
+#frequently_asked_questions__faqs_ {
+	top: 0px;
+	left: 0px;
+	width: 736.2px;
+	height: 59.2px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 32px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#___what_is_the_meaning_of_life_integer_suscipit__ante_at_pharetra_consectetur__arcu_dui_elementum_dolor__in_pellentesque_lacus_massa_sit_amet_nisi__aenean_metus_leo__pretium_non_arcu_fringilla__pharetra_venenatis_lectus__proin_gravida_arcu_et_quam_facilisis__ut_egestas_metus_viverra__morbi_commodo_facilisis_mi__non_vestibulum_sapien_bibendum_et____can_i_hack_nasa_aftern_learning_those_skills__aliquam_sem_quam__bibendum_ac_tempor_et__dapibus_ultrices_ligula__cras_dictum__dolor_at_rhoncus_sagittis__erat_massa_rutrum_libero__a_ultricies_odio_nisl_a_lorem__donec_dictum_mauris_leo__donec_fermentum_velit_eu_tortor_interdum____will_i_become_mr_robot_after_this_event__sed_et_placerat_magna__etiam_condimentum__metus_ac_malesuada_pellentesque__ipsum_urna_placerat_diam__at_condimentum_elit_purus_ut_turpis__in_congue_suscipit_leo {
+	top: 57px;
+	left: 0px;
+	width: 1042px;
+	height: 369px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+#home_page___6 {
+	top: 3060px;
+	left: 134px;
+	width: 1244px;
+	height: 844px;
+}
+
+#_bg__home_page___6_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 844px;
+	background:#;
+}
+
+
+#home_page___5_ek2 {
+	opacity:0.43999999761581;
+	top: 0px;
+	left: 0px;
+	width: 1244px;
+	height: 786px;
+	background:rgba(196,196,196,0.44);
+}
+
+
+#meet_the__organizingteam {
+	top: 57px;
+	left: 312px;
+	width: 622px;
+	height: 75px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: center;
+	color:#000000;
+}
+
+#team_cards {
+	top: 159px;
+	left: 90px;
+	width: 1064px;
+	height: 193px;
+}
+
+#_bg__team_cards_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1064px;
+	height: 193px;
+	background:#;
+}
+
+
+#ellipse_1 {
+	top: 0px;
+	left: 20px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#dr__sonal_sharma_progaram_head {
+	top: 153px;
+	left: -3px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_2 {
+	top: 0px;
+	left: 245px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#raagan_vice_president {
+	top: 155px;
+	left: 443px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_3 {
+	top: 0px;
+	left: 469px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#yousif_elamin_the_real_mr_robot {
+	top: 155px;
+	left: 659px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_4 {
+	top: 0px;
+	left: 694px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#lisshutharan_segaran_president {
+	top: 155px;
+	left: 231px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_5 {
+	top: 0px;
+	left: 912px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#duser_psomehead {
+	top: 156px;
+	left: 883px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+#team_cards_ek2 {
+	top: 374px;
+	left: 90px;
+	width: 1064px;
+	height: 193px;
+}
+
+#_bg__team_cards_ek3 {
+	top: 0px;
+	left: 0px;
+	width: 1064px;
+	height: 193px;
+	background:#;
+}
+
+
+#ellipse_1_ek1 {
+	top: 0px;
+	left: 20px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#ganesh_siddhartha_eat_5_stardonothing {
+	top: 153px;
+	left: -3px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_2_ek1 {
+	top: 0px;
+	left: 245px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#raagan_vice_president_ek1 {
+	top: 155px;
+	left: 443px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_3_ek1 {
+	top: 0px;
+	left: 469px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#duser_pcoordinator {
+	top: 155px;
+	left: 659px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_4_ek1 {
+	top: 0px;
+	left: 694px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#mangalam_kallo_full_stack_developer {
+	top: 155px;
+	left: 231px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ellipse_5_ek1 {
+	top: 0px;
+	left: 912px;
+	width: 133px;
+	height: 133px;
+	-ms-border-radius: 66.5px / 66.5px;
+	-o-border-radius: 66.5px / 66.5px;
+	-moz-border-radius: 66.5px / 66.5px;
+	-webkit-border-radius: 66.5px / 66.5px;
+	border-radius: 66.5px / 66.5px;
+	background:rgba(131.95,130.74,130.74,1);
+}
+
+
+#duser_psomehead_ek1 {
+	top: 156px;
+	left: 883px;
+	width: 185px;
+	height: 41.6px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#rectangle_11 {
+	top: 652px;
+	left: 0px;
+	width: 1244px;
+	height: 192px;
+	background:rgba(202.07,202.07,202.07,1);
+}
+
+
+#cyper_club_logo {
+	top: 671px;
+	left: 102px;
+	width: 303px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#quick_links_link_1_link_2_link_3 {
+	top: 671px;
+	left: 575px;
+	width: 212px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#follow_us_on_link_1_link_2_link_3 {
+	top: 666px;
+	left: 940px;
+	width: 212px;
+	height: 73px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#___2023_cyper_club_jain_university___developed_with____by__knoxhunter03 {
+	top: 806px;
+	left: 102px;
+	width: 1042px;
+	height: 42.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 15px;
+	text-align: center;
+	color:#5F5B5B;
+}
+
+
+#powered_by_ctfd___google_cloud_platform {
+	top: 715px;
+	left: 173px;
+	width: 261.5px;
+	height: 70.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 15px;
+	text-align: left;
+	color:#000000;
+}
+
+
+
+/* Add your custom CSS here */

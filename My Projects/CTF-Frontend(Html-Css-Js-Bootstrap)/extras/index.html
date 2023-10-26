@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="countdown">
+            <ul>
+                <li><span id="days"></span>days</li>
+                <li><span id="hours"></span>Hours</li>
+                <li><span id="minutes"></span>Minutes</li>
+            </ul>
+        </div>
+    </div>
+
+   
+    
+  
+
+    <script>
+        
+        (function () {
+            const second = 1000,
+                minute = second * 60,
+                hour = minute * 60,
+                day = hour * 24;
+        
+            // Set the target date to November 2, 2023
+            const targetDate = new Date('2023-11-02T00:00:00').getTime();
+        
+            const x = setInterval(function() {
+                const now = new Date().getTime(),
+                    distance = targetDate - now;
+        
+                document.getElementById("days").innerText = String(Math.floor(distance / day)).padStart(2, '0');
+                document.getElementById("hours").innerText = String(Math.floor((distance % day) / hour)).padStart(2, '0');
+                document.getElementById("minutes").innerText = String(Math.floor((distance % hour) / minute)).padStart(2, '0');
+        
+
+            }, 1000); // Update every second
+        })();
+        
+        
+    </script>
+</body>
+</html>

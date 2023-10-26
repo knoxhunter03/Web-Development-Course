@@ -1,0 +1,511 @@
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-cell-block {
+    min-height: 75px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: space-evenly;
+  }
+  
+  .outer-container {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-color: white;
+  }
+  
+  .inner-container {
+    max-width: 1000px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+  }
+  
+  .section-head-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(0, 135, 177);
+    margin: 0 0 100px 0;
+  }
+  
+  .section-subhead-text {
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+    line-height: 35px;
+    max-width: 470px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  
+  
+  @media (max-width: 500px) {
+    .outer-container {
+      padding: 10px 20px 10px 20px;
+    }
+  
+    .section-head-text {
+      text-align: center;
+    }
+  }
+
+  /* Event Details CSS */
+
+  
+
+  .homepage-container {
+    display: flex;
+}
+
+.hero-container {
+    flex: 1;
+    padding: 20px;
+}
+
+.sub-hero-container {
+    flex: 1;
+    padding: 20px;
+    text-align: justify;
+}
+
+.sub-hero-container {
+    text-align: center;
+}
+
+.sub-hero-container a.btn.btn-primary {
+    display: inline-block;
+}
+
+
+/* Media Query for Tablet screens */
+@media (max-width: 768px) {
+    .eventdetails-container {
+        flex-direction: column;
+    }
+    .question-container, .answer-container {
+        flex: none;
+        width: 100%; /* Full width on smaller screens */
+        padding: 10px; /* Reduced padding for smaller screens */
+    }
+}
+
+/* Media Query for Mobile screens */
+@media (max-width: 480px) {
+    .question-container, .answer-container {
+        padding: 5px; /* Further reduced padding for mobile screens */
+    }
+}
+
+/* Countdown */
+:root {
+    --smaller: 0.75;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+        font-size: calc(1.5rem * var(--smaller));
+    }
+
+    li {
+        font-size: calc(1.125rem * var(--smaller));
+    }
+
+    li span {
+        font-size: calc(3.375rem * var(--smaller));
+    }
+}
+
+/* Team */
+.u-section-1 .u-sheet-1 {
+    min-height: 1490px;
+}
+
+.u-section-1 .u-text-1 {
+    margin: 76px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+    margin: 40px auto 60px;
+}
+
+.u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(4, 25%);
+    min-height: 991px;
+    grid-gap: 0;
+}
+
+.u-section-1 .u-container-layout-1,
+.u-section-1 .u-container-layout-2,
+.u-section-1 .u-container-layout-3,
+.u-section-1 .u-container-layout-4,
+.u-section-1 .u-container-layout-5,
+.u-section-1 .u-container-layout-6,
+.u-section-1 .u-container-layout-7,
+.u-section-1 .u-container-layout-8,
+.u-section-1 .u-container-layout-9,
+.u-section-1 .u-container-layout-10,
+.u-section-1 .u-container-layout-11,
+.u-section-1 .u-container-layout-12 {
+    padding: 30px;
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-2,
+.u-section-1 .u-image-3,
+.u-section-1 .u-image-4,
+.u-section-1 .u-image-5,
+.u-section-1 .u-image-6,
+.u-section-1 .u-image-7,
+.u-section-1 .u-image-8,
+.u-section-1 .u-image-9,
+.u-section-1 .u-image-10,
+.u-section-1 .u-image-11,
+.u-section-1 .u-image-12 {
+    height: 210px;
+    width: 210px;
+    background-position: 50% 50%;
+    margin: 0 auto;
+}
+
+.u-section-1 .u-image-1 {
+    background-image: url("images/2.jpg");
+}
+
+.u-section-1 .u-image-2 {
+    background-image: url("images/0b32e1fa-df03-3333-0282-3c4069b3e47d.jpg");
+}
+
+.u-section-1 .u-image-3 {
+    background-image: url("images/bbef6c67-d065-15d8-00f7-04c4574b8bd9.jpg");
+}
+
+.u-section-1 .u-image-4 {
+    background-image: url("images/6.jpg");
+}
+
+.u-section-1 .u-image-5 {
+    background-image: url("images/3.jpg");
+}
+
+.u-section-1 .u-image-6 {
+    background-image: url("images/woman4.jpg");
+}
+
+.u-section-1 .u-image-7 {
+    background-image: url("images/5man.jpg");
+}
+
+.u-section-1 .u-image-8 {
+    background-image: url("images/woman7.jpg");
+}
+
+.u-section-1 .u-image-9 {
+    background-image: url("images/happy-man-with-long-thick-ginger-beard-has-friendly-smile_273609-16616.jpg");
+}
+
+.u-section-1 .u-image-10 {
+    background-image: url("images/ddddddd.jpg");
+}
+
+.u-section-1 .u-image-11 {
+    background-image: url("images/5mant.jpg");
+}
+
+.u-section-1 .u-text-2,
+.u-section-1 .u-text-4,
+.u-section-1 .u-text-6,
+.u-section-1 .u-text-8,
+.u-section-1 .u-text-10,
+.u-section-1 .u-text-12,
+.u-section-1 .u-text-14,
+.u-section-1 .u-text-16,
+.u-section-1 .u-text-18,
+.u-section-1 .u-text-20,
+.u-section-1 .u-text-22,
+.u-section-1 .u-text-24 {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 20px 0 0;
+}
+
+
+
+  /* Responsive CSS */
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1 {
+  width: 8.333333%;
+}
+
+.wk-desk-2 {
+  width: 16.666667%;
+}
+
+.wk-desk-3 {
+  width: 25%;
+}
+
+.wk-desk-4 {
+  width: 33.333333%;
+}
+
+.wk-desk-5 {
+  width: 41.666667%;
+}
+
+.wk-desk-6 {
+  width: 50%;
+}
+
+.wk-desk-7 {
+  width: 58.333333%;
+}
+
+.wk-desk-8 {
+  width: 66.666667%;
+}
+
+.wk-desk-9 {
+  width: 75%;
+}
+
+.wk-desk-10 {
+  width: 83.333333%;
+}
+
+.wk-desk-11 {
+  width: 91.666667%;
+}
+
+.wk-desk-12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1 {
+    width: 8.333333%;
+  }
+
+  .wk-ipadp-2 {
+    width: 16.666667%;
+  }
+
+  .wk-ipadp-3 {
+    width: 25%;
+  }
+
+  .wk-ipadp-4 {
+    width: 33.333333%;
+  }
+
+  .wk-ipadp-5 {
+    width: 41.666667%;
+  }
+
+  .wk-ipadp-6 {
+    width: 50%;
+  }
+
+  .wk-ipadp-7 {
+    width: 58.333333%;
+  }
+
+  .wk-ipadp-8 {
+    width: 66.666667%;
+  }
+
+  .wk-ipadp-9 {
+    width: 75%;
+  }
+
+  .wk-ipadp-10 {
+    width: 83.333333%;
+  }
+
+  .wk-ipadp-11 {
+    width: 91.666667%;
+  }
+
+  .wk-ipadp-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1 {
+    width: 8.333333%;
+  }
+
+  .wk-tab-2 {
+    width: 16.666667%;
+  }
+
+  .wk-tab-3 {
+    width: 25%;
+  }
+
+  .wk-tab-4 {
+    width: 33.333333%;
+  }
+
+  .wk-tab-5 {
+    width: 41.666667%;
+  }
+
+  .wk-tab-6 {
+    width: 50%;
+  }
+
+  .wk-tab-7 {
+    width: 58.333333%;
+  }
+
+  .wk-tab-8 {
+    width: 66.666667%;
+  }
+
+  .wk-tab-9 {
+    width: 75%;
+  }
+
+  .wk-tab-10 {
+    width: 83.333333%;
+  }
+
+  .wk-tab-11 {
+    width: 91.666667%;
+  }
+
+  .wk-tab-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1 {
+    width: 8.333333%;
+  }
+
+  .wk-mobile-2 {
+    width: 16.666667%;
+  }
+
+  .wk-mobile-3 {
+    width: 25%;
+  }
+
+  .wk-mobile-4 {
+    width: 33.333333%;
+  }
+
+  .wk-mobile-5 {
+    width: 41.666667%;
+  }
+
+  .wk-mobile-6 {
+    width: 50%;
+  }
+
+  .wk-mobile-7 {
+    width: 58.333333%;
+  }
+
+  .wk-mobile-8 {
+    width: 66.666667%;
+  }
+
+  .wk-mobile-9 {
+    width: 75%;
+  }
+
+  .wk-mobile-10 {
+    width: 83.333333%;
+  }
+
+  .wk-mobile-11 {
+    width: 91.666667%;
+  }
+
+  .wk-mobile-12 {
+    width: 100%;
+  }
+}
