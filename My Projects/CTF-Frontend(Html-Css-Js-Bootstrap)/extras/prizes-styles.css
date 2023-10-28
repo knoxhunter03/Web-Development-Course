@@ -82,14 +82,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap");
 
 html {
-	background: #1a1b3a;
+	background: #0c0d16;
 	font-size: 16px;
 	font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-	color: white;
+	color: rgb(239, 237, 239);
 }
+
 
 /*----------------------------*/
 /* SIZING */
@@ -291,7 +292,8 @@ p {
 			justify-content: stretch;
 			> * {
 				flex: 1;
-				background: linear-gradient(180deg, #242547 0%, #1a1b3a 100%);
+				/* Change the card color */
+				background: linear-gradient(45deg, #061d45, #33085e)
 			}
 		}
 	}
