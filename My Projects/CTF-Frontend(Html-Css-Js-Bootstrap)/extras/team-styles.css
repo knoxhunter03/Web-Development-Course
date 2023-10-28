@@ -1,7 +1,4 @@
-* {
-    font-family: Nunito, sans-serif;
-  }
-  
+
   .text-blk {
     margin-top: 0px;
     margin-right: 0px;
@@ -32,7 +29,6 @@
     padding-right: 50px;
     padding-bottom: 10px;
     padding-left: 50px;
-    background-color: rgb(244, 252, 255);
   }
   
   .inner-container {
