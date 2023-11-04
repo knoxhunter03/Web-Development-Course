@@ -1,0 +1,112 @@
+
+
+
+    
+        <div class="homepage-container" style="margin-top: 50px">
+            <div class="hero-container">
+                <h1 class="gradient-typo"style=""><b>CAPTURE THE FLAG</b></h1>
+                <h3 class="typewriter">Explore, Hack, Conquer!</h3>
+
+                <div class="hero-sub-section">
+                    <p>Welcome hackers! Prove the world that a computer genius with a laptop is not a nerd sitting in the corner of a untidy room but a fun loving work of brilliance! Join our CTF and expand your knowledge about computer forensics.</p>
+                </div>
+                
+                <div class="dates">
+                    <h4 style="background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+    
+                    /* Set text color to transparent to make the text visible on top of the gradient */
+                    color: transparent;
+                  
+                    /* Use background-clip to ensure the gradient only applies to the text area */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                "><b>Join us on 6th November, 2023</b></h4>
+                    <p>for an Epic CTF Challenge & Win Exciting Rewards!</p>
+                </div>
+
+                <div class="presented-by">
+                    <p>Presented By: </p>
+
+                    <div class="logos" style="display: flex;">
+                        <div class="image 1">
+                            <img src="https://github.com/knoxhunter03/Web-Development-Course/blob/main/My%20Projects/CTF-Frontend(Html-Css-Js-Bootstrap)/extras/jain_university_logo_white.png?raw=true" 
+                            alt="Jain University" style="max-width: 150px;">
+                        </div>
+
+                        <div class="image 1" style="margin-left: 20px">
+                            <img src="https://github.com/knoxhunter03/Web-Development-Course/blob/main/My%20Projects/CTF-Frontend(Html-Css-Js-Bootstrap)/extras/the_cloud_club_white.png?raw=true" 
+                            alt="The Cloud Club" style="max-width: 100px;">
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="sub-hero-container">
+                <p style="padding-top: 80px; font-size: 18px" >
+                    <span id="countdownText">Cyper Quest<br>Registration is open now!</span>
+                </p>
+                <div id="countdown">
+                    <ul>
+                        <li><span id="days"></span>Days</li>
+                        <li><span id="hours"></span>Hours</li>
+                        <li><span id="minutes"></span>Minutes</li>
+                    </ul>
+                </div>
+                <a id="registerButton" href="{{ url_for('auth.register') }}" class="btn btn-success" style="margin-top: 10px; color: white; 
+                background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+                "><b>Register Now<b></a>
+
+
+     
+        
+
+      
+    </div>
+</div>
+
+  <script>
+    (function () {
+        const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+
+        // Set the target date to November 6, 2023, at 9:30 AM
+        const targetDate = new Date('2023-11-06T09:30:00').getTime();
+
+        const countdownText = document.getElementById("countdownText");
+        const registerButton = document.getElementById("registerButton");
+
+        const x = setInterval(function() {
+            const now = new Date().getTime(),
+                distance = targetDate - now;
+
+            const days = Math.floor(distance / day);
+            const hours = Math.floor((distance % day) / hour);
+            const minutes = Math.floor((distance % hour) / minute);
+
+            document.getElementById("days").innerText = String(days).padStart(2, '0');
+            document.getElementById("hours").innerText = String(hours).padStart(2, '0');
+            document.getElementById("minutes").innerText = String(minutes).padStart(2, '0');
+
+            if (distance <= 0) {
+                // Countdown has reached 0
+                countdownText.innerText = "Cyper Quest is Live Now!";
+                registerButton.innerText = "Start Hacking!";
+                registerButton.href = "{{ url_for('challenges.listing') }}";
+
+                // Clear the interval to stop the countdown
+                document.getElementById("days").innerText = '0';
+                document.getElementById("hours").innerText = '0';
+                document.getElementById("minutes").innerText = '0';
+                clearInterval(x);
+            } else {
+                document.getElementById("days").innerText = String(Math.floor(distance / day)).padStart(2, '0');
+                document.getElementById("hours").innerText = String(Math.floor((distance % day) / hour)).padStart(2, '0');
+                document.getElementById("minutes").innerText = String(Math.floor((distance % hour) / minute)).padStart(2, '0');
+            }
+        }, 1000); // Update every second
+    })();
+  </script>

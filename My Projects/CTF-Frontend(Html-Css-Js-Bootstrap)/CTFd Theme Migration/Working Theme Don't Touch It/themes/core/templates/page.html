@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="container">
+	{{ content | safe }}
+
+  
+  {% include "components/herosection.html" %}
+ 
+  {% include "components/eventdetails.html" %}
+
+  {% include "components/prizes.html" %}
+  {% include "components/rules.html" %}
+  {% include "components/faq.html" %}
+  {% include "components/team.html" %}
+
+
+
+
+	
+
+	<script></script>
+
+	</div>
+{% endblock %}
